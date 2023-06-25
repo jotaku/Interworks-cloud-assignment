@@ -1,8 +1,8 @@
-# Project Title: Automated Testing Using Playwright JS
+# Interworks.cloud Test Challenge Using Playwright JS!
 
 ## Description
 
-This project demonstrates how to automate the testing process of a web application using Playwright JS. Playwright JS is a modern and reliable end-to-end testing library that provides a high-level API to automate web browsers.
+This project demonstrates how to automate the nterworks.cloud Test Challenge using Playwright JS. Playwright JS is a modern and reliable end-to-end testing library that provides a high-level API to automate web browsers.
 
 ## Setup
 
