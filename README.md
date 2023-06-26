@@ -14,7 +14,7 @@ The Playwright JS solution meets all the requirements of the assignments:
 
 - Test 1: Chat Bot Invalid Email Validation
 - Test 2: Correct Redirection for Additional Information
-- An accompanying {document](PlaywrightTests/README.md) offering a concise description of the scenarios, test code, and comprehensive execution instructions.
+- An accompanying [document](PlaywrightTests/README.md) offering a concise description of the scenarios, test code, and comprehensive execution instructions.
 - Video Capture
 - Cross-Browser Testing
 
