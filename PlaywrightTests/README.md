@@ -27,7 +27,7 @@ npm install
 To run all tests, use the command:
 
 ```bash
-npm playwright test
+npx playwright test
 ```
 
 To run a specific test file (spec file), use the following command, replacing `testname` with the name of your test:
