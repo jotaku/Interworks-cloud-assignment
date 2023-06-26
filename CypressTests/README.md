@@ -24,14 +24,6 @@ cd Interworks-cloud-assignment/CypressTests/
 npm install
 ```
 
-2. (optional)After the installation completes, open the `cypress.json` file in the root directory of your project and configure it as needed (e.g., set `baseUrl` to your application's URL).
-
-3. (optional Add the following script to the "scripts" section of your `package.json` file:
-   ```
-   "cy:open": "npx cypress open",
-   "cy:run': "npx cypress run"
-   ```
-
 ## Running Tests
 
 1. To run all tests in Headless mode, use the following command:
