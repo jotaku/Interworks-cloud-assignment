@@ -16,7 +16,7 @@ exports.ResellersPage = class ResellersPagePage {
         name: 'I wanna talk about something else😀 - Reply as a response to Hiya! Nice seeing ya! Wanna find out the benefits of partnering up with us?',
       });
 
-    this.seconddChatOption = page
+    this.secondChatOption = page
       .frameLocator('iframe[title="Drift Widget Chat Window"]')
       .getByRole('button', {
         name: 'The weather - Reply as a response to Pick another subject! ☺️',
@@ -57,12 +57,21 @@ exports.ResellersPage = class ResellersPagePage {
     await this.chatBox.click();
   }
 
+  async selectResponse(response) {
+    await this.page
+      .frameLocator('iframe[title="Drift Widget Chat Window"]')
+      .getByRole('button', {
+        name: `${response}`,
+      })
+      .click();
+  }
+
   async click1stResponse() {
     await this.firstChatOption.click();
   }
 
   async click2ndResponse() {
-    await this.seconddChatOption.click();
+    await this.secondChatOption.click();
   }
 
   async click3rdResponse() {
