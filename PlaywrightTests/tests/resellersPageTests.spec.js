@@ -9,19 +9,6 @@ test('Chat Bot Invalid Email Validation', async ({ page }) => {
 
   await resellersPage.goto(targetUrl);
   await resellersPage.openChatBot();
-  await resellersPage.click1stResponse();
-  await resellersPage.click2ndResponse();
-  await resellersPage.click3rdResponse();
-  await resellersPage.click4thResponse();
-  await resellersPage.enterEmail(invalidEmail);
-  await resellersPage.checkFinalResponse();
-});
-
-test('Chat Bot Invalid Email Validation2', async ({ page }) => {
-  const resellersPage = new ResellersPage(page);
-
-  await resellersPage.goto(targetUrl);
-  await resellersPage.openChatBot();
   await resellersPage.selectResponse(
     'I wanna talk about something else😀 - Reply as a response to Hiya! Nice seeing ya! Wanna find out the benefits of partnering up with us?'
   );
