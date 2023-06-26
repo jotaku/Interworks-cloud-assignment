@@ -9,4 +9,5 @@ module.exports = defineConfig({
   viewportWidth: 1920,
   viewportHeight: 1080,
   chromeWebSecurity: false,
+  defaultCommandTimeout: 6000,
 });

@@ -4,6 +4,14 @@
 
 This project demonstrates how to automate the nterworks.cloud Test Challenge using Playwright JS. Playwright JS is a modern and reliable end-to-end testing library that provides a high-level API to automate web browsers.
 
+## Prerequisites
+
+Before running the tests, make sure your system meets the following requirements:
+
+- Node.js 12+ (preferably the latest LTS version)
+- npm or yarn
+- Operating System: Playwright is compatible with macOS, Linux, and Windows.
+
 ## Setup
 
 To start using this project, clone the repository and install the dependencies:
@@ -91,7 +99,7 @@ Recorded videos of test runs can be found in the `test-videos` directory. These 
 
 ## Why Playwright?
 
-We chose Playwright as our testing framework for several reasons:
+Playwright is a testing framework of choice for several reasons:
 
 - Browser Support: Playwright supports all major web browsers including Chrome, Firefox, Safari and the new Microsoft Edge. This allows us to test our application across different browsers using the same tool.
 
@@ -104,6 +112,10 @@ We chose Playwright as our testing framework for several reasons:
 - Reliability: With features such as auto-wait for elements to be ready before executing actions, Playwright reduces the chances of flaky tests and improves reliability.
 
 - Network Interception: Playwright's ability to intercept network requests provides us the capability to test different server responses and error conditions.
+
+- Iframes: Playwright supports the direct selection of elements within these frames, thereby eliminating the need to switch contexts. This simplification of the selection process enhances the readability and maintainability of test scripts. Moreover, Playwright's auto-waiting mechanism ensures that the elements within the iframe are fully loaded before any interactions, greatly increasing the reliability of the tests.
+
+- Tabs: Playwright offers a well-defined API that proficiently manages multiple browser contexts and pages, effectively handling various browser tabs. This API facilitates the creation, closure, and switching of tabs in an efficient manner.
 
 ## License
 
